@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import NavBar from './components/NavBar';
+import Home from './components/Home';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div>
-          Welcome to the LevDev Group
-        </div>
-        <div>
-          Buy or amazing services today! or tomorrow!
-        </div>
-    </div>
+      <Router>
+        <div className="App">
+          <Route path="/" component={NavBar} />
+          <Route path="/home" component={Home} />
+          <Route exact path="/" component={Home} />
+      </div>
+    </Router>
     );
   }
 }
