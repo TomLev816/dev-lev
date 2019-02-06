@@ -1,3 +1,122 @@
-.App {
+.no-margin {
+  margin: 0px;
+}
+
+.margin-10 {
+  margin: 10%;
+}
+
+.text-center {
   text-align: center;
 }
+
+.text-right {
+  text-align: right;
+}
+
+.no-padding {
+  padding: 0px;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.back-img{
+  max-width: 100%;
+}
+
+.home-page {
+  max-width: 100%;
+}
+
+.font-size-3em {
+  font-size: 3em;
+}
+
+.home-top-background {
+  height: 800px;
+  background-image:
+  url('./images/view.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.solutions-box {
+  width: 25%;
+  margin-left: 20px;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  margin-top: 10%;
+  background-color: rgba(205,50,50,.9);
+}
+
+.navbar {
+  background-color: #fff;
+  padding: 16px;
+  font-family: sans-serif;
+  color: #000;
+  border-bottom: 1px solid #E2E2E2;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar-wrapper,
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-wrapper-right {
+  margin-left: 0;
+  display: none;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar-toggle {
+  align-self: flex-start;
+  display: initial;
+  position: absolute;
+  cursor: pointer;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .navbar-wrapper-right {
+    margin-left: auto;
+    display: flex;
+  }
+  .navbar-wrapper,
+  .navbar {
+    flex-direction: row;
+  }
+  .navbar-toggle {
+    display: none;
+  }
+
+  .nav-link {
+    padding: 0px;
+  }
+
+  .nav-link a {
+    padding: 8px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
