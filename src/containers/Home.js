@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Solutions from '../components/Solutions'
 
 export default class Home extends Component {
 
@@ -10,9 +10,7 @@ export default class Home extends Component {
           <div>
             Welcome to Dev Lev Group. We have tons of clients. Go Away
           </div>
-          <div className='solutions-box font-size-3em'>
-            WE DEVELOP SOFTWARE SOLUTIONS FOR STARTUPS
-          </div>
+          <Solutions />
         </div>
         <div>
           Stuff under the main picture
