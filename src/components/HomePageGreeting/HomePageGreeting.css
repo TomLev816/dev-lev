@@ -1,0 +1,10 @@
+.home-page-greeting-wrapper {
+    width: 50%;
+    color: lightgrey
+  }
+
+.home-page-greeting {
+    width: 50%;
+    background-color: rgba(100,130,150,.9);
+    border-radius: 1px;
+}
