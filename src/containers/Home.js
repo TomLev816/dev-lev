@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import HomePageGreeting from '../components/HomePageGreeting/HomePageGreeting'
+import HomeGreeting from '../components/HomeGreeting/HomeGreeting'
 
 export default class Home extends Component {
 
@@ -7,7 +7,7 @@ export default class Home extends Component {
     return (
       <div className="home-page">
         <div className='home-top-background'>
-          <HomePageGreeting />
+          <HomeGreeting />
         </div>
         <div>
           Stuff under the main picture
