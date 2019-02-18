@@ -1,0 +1,25 @@
+.home-greeting-wrapper {
+    color: lightgrey;
+    padding: 10px;
+  }
+
+.home-greeting {
+    background-color: rgba(100,130,150,.9);
+    border-radius: 1px;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.home-greeting-message {
+    margin-bottom: .5em;
+}
+
+.home-greeting-contact {
+    font-size: .5em;
+}
+.home-greeting-contact a {
+    color: #000;
+    background-color: #fff;
+    padding: 8px;
+}
