@@ -1,0 +1,38 @@
+.about-greeting-wrapper {
+    color: lightgrey;
+    padding: 10px;
+  }
+
+.about-greeting {
+    background-color: rgba(100,130,150,.6);
+    border-radius: 10px;
+    margin-top: 180px;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-greeting-hey {
+  font-size: 1.5em;
+}
+
+.about-greeting-message {
+    font-size: 1em;
+}
+
+
+@media (min-width: 768px) {
+  .about-greeting {
+    display: flex;
+    align-items: center;
+  }
+
+  .about-greeting-hey {
+    font-size: 2.5em;
+  }
+
+  .about-greeting-message {
+      font-size: 1.5em;
+  }
+
+
+}
