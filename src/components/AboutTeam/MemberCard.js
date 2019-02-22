@@ -23,6 +23,7 @@ export default class MemberCard extends Component {
   //   })
   // }
 
+// this is commented code
   hoverOnOff = () => {
     this.setState({
       hover: !this.state.hover,
