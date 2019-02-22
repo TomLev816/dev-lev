@@ -1,20 +1,16 @@
 import React from 'react';
 import {teamMembers} from '../../constants';
 import MemberCard from './MemberCard'
-
-// const createCard = (membersArray) => {
-//
-//   })
-// }
+import './AboutTeam.css'
 
 export default function AboutTeam(props) {
   console.log(teamMembers)
   return (
     <div>
-      <div>
-        TEAM MEMBERS
+      <div className='team-members-header'>
+        <h1>TEAM MEMBERS</h1>
       </div>
-      <div>
+      <div className='member-card-container' >
         {teamMembers.map(member => {return <MemberCard teamMember={member} /> })}
       </div>
     </div>
