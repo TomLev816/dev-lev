@@ -1,0 +1,24 @@
+.team-members-header{
+  text-align: center;
+}
+
+.member-card-container {
+  display: flex;
+   justify-content: center;
+}
+
+.member-card {
+  
+  margin: 25px;
+  padding: 25px;
+  text-align: center;
+  background-color: rgba(100,130,150,.6);
+  border-radius: 10px;
+}
+
+.members-image{
+  margin-top: 20px;
+  border-radius: 10px;
+  max-width: 250px;
+  max-height: 150px;
+}

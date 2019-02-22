@@ -5,7 +5,7 @@ export default function AboutGreeting(props) {
   return (
     <div className="about-greeting-wrapper">
       <div className='about-greeting'>
-        <div className='about-greeting-hey'>
+        <div className='about-greeting-head'>
           Hey! Were DevLevGroup!
         </div>
         <div className='about-greeting-message'>

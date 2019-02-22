@@ -9,7 +9,7 @@ export default function About(props) {
         <AboutGreeting/>
       </div>
       <div className='about-page-team-container'>
-        <AboutTeam/>
+        <AboutTeam />
       </div>
     </div>
   );
