@@ -8,22 +8,7 @@ export default class MemberCard extends Component {
     hover: false
   }
 
-  // not sure if its better to have an on and off function or if you can just have one that
-  // flips the T/F state
-
-  // hoverOn = () => {
-  //   this.setState({
-  //     hover: true,
-  //   })
-  // }
-  //
-  // hoverOff = () => {
-  //   this.setState({
-  //     hover: false,
-  //   })
-  // }
-
-// this is commented code
+// changes if person hovers over a card or stops hovering on card
   hoverOnOff = () => {
     this.setState({
       hover: !this.state.hover,
