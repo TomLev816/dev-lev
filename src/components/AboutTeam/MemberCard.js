@@ -19,13 +19,14 @@ export default class MemberCard extends Component {
     console.log(this.props)
     return (
       <div className='member-card' onMouseEnter={this.hoverOnOff} onMouseLeave={this.hoverOnOff}>
+        <h2>{this.props.teamMember.name}</h2>
 
         {/* if hover is true it shows the members bio */ }
-        {this.state.hover ? <div> {this.props.teamMember.bio} </div> : null}
-
-
-        <h2>{this.props.teamMember.name}</h2>
-        <img className="members-image" src={this.props.teamMember.imgSrc} alt="" ></img>
+        <div>
+          {this.state.hover ?
+            <div className='member-bio'> {this.props.teamMember.bio} </div> :
+            <img className="members-image" src={this.props.teamMember.imgSrc} alt="" ></img>}
+        </div>
       </div>
     );
   }

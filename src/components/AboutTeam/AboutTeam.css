@@ -8,7 +8,7 @@
 }
 
 .member-card {
-  
+
   margin: 25px;
   padding: 25px;
   text-align: center;
@@ -16,9 +16,15 @@
   border-radius: 10px;
 }
 
+.member-bio  {
+  margin-top: 20px;
+  width: 250px;
+  height: 150px;
+}
+
 .members-image{
   margin-top: 20px;
   border-radius: 10px;
-  max-width: 250px;
-  max-height: 150px;
+  width: 250px;
+  height: 150px;
 }
