@@ -3,7 +3,7 @@ import './AboutGreeting.css'
 
 export default function AboutGreeting(props) {
   return (
-    <div className="about-greeting-wrapper">
+    <div className="about-page-top-background">
       <div className='about-greeting'>
         <div className='about-greeting-head'>
           Hey! Were DevLevGroup!

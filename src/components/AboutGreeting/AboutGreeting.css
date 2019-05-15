@@ -19,6 +19,13 @@
     font-size: 1em;
 }
 
+.about-page-top-background{
+  height: 600px;
+  background-image:
+  url('https://collegechoice.azureedge.net/wp-content/uploads/2018/04/Computer-Programming.jpg');
+  background-size: cover;
+  background-position: center center;
+}
 
 @media (min-width: 768px) {
   .about-greeting {
